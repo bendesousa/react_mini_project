@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.App ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em;
+}
