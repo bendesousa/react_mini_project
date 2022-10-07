@@ -4,7 +4,6 @@
   border-style: solid;
   border-width: 25px;
   border-color: #0A285F;
-  
 }
 
 .App-logo {
@@ -53,3 +52,23 @@
   display: grid;
   grid-template-rows: 10% 90%;
 } */
+/* 
+#pokemon-names{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+ul {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  height: 100vh;
+}
+ul li {
+  flex: 1 0 25%;
+}
+
+#pokemon-detail {
+  padding: 5px;
+  margin: 10px;
+}

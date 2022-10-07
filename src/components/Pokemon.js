@@ -5,7 +5,10 @@ const Pokemon = ({pokemon, selectPokemon}) => {
     }
 
     return (
-        <li onClick={handleClick}>{pokemon.name}</li>
+        <div id="pokemon-names">
+            <li onClick={handleClick}>{pokemon.name}</li>
+        </div>
+        
     )
 
 }
