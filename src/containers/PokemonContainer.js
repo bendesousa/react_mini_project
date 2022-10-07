@@ -51,15 +51,16 @@ const PokemonContainer = () => {
     }
 
     return (
-        <div>
+        <div className="pokemon-container">
             <Search filterPokemon={filterPokemons}/>
-            <PokemonList pokemons={filteredPokemons ? filteredPokemons : pokemons} selectPokemon={selectPokemon}/>
             {selectedPokemon ? 
                 <PokemonDetail 
                     selectedPokemon={selectedPokemon}
                 /> 
                 : <div></div>
             }
+            <PokemonList pokemons={filteredPokemons ? filteredPokemons : pokemons} selectPokemon={selectPokemon}/>
+        
         </div>
         
     )

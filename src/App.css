@@ -43,3 +43,8 @@
   margin: 0.5em;
   padding: 0.5em;
 }
+
+/* .pokemon-container {
+  display: grid;
+  grid-template-rows: 10% 90%;
+} */
