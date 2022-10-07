@@ -1,7 +1,11 @@
-const Pokemon = ({pokemon}) => {
+const Pokemon = ({pokemon, selectPokemon}) => {
     
+    const handleClick = () => {
+        selectPokemon(pokemon);
+    }
+
     return (
-        <li>{pokemon.name}</li>
+        <li onClick={handleClick}>{pokemon.name}</li>
     )
 
 }

@@ -4,7 +4,7 @@ const PokemonDetail = ({selectedPokemon}) => {
         <div id="pokemon-detail">
             <h2>{selectedPokemon.name}</h2>
             <ul>
-                <li>Pokemon URL: {selectedPokemon.url}</li>
+                <li>Full Details: {selectedPokemon.url}</li>
             </ul>
         </div>
     )
