@@ -1,8 +1,8 @@
-
-
-const Pokemon = () => {
-
-    return <h2>The Pokemon Page</h2>
+const Pokemon = ({pokemon}) => {
+    
+    return (
+        <li>{pokemon.name}</li>
+    )
 
 }
 
